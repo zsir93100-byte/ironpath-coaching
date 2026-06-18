@@ -1,4 +1,4 @@
-import { ArrowRight, Award, Dumbbell, Users, TrendingUp } from 'lucide-react';
+import { ArrowRight, Award, Users, TrendingUp } from 'lucide-react';
 
 export function Hero() {
   return (
@@ -61,18 +61,14 @@ export function Hero() {
           <div className="relative mx-auto w-full max-w-md lg:max-w-none">
             <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-forge-500/20 to-forge-600/5 blur-2xl" />
             <div className="relative overflow-hidden rounded-3xl border border-iron-800 bg-iron-900">
-              {/* Stylized silhouette / avatar placeholder */}
-              <div className="flex aspect-[3/4] items-center justify-center bg-gradient-to-b from-iron-800 via-iron-900 to-iron-950">
-                <div className="text-center">
-                  <div className="mx-auto flex h-28 w-28 items-center justify-center rounded-full bg-forge-500/20">
-                    <Dumbbell className="h-14 w-14 text-forge-400" />
-                  </div>
-                  <p className="mt-4 text-sm font-medium text-iron-500">Coach Portrait</p>
-                  <p className="text-xs text-iron-600">(Replace with real photo)</p>
-                </div>
-              </div>
+              <img
+                src="/coach-marcus.jpg"
+                alt="Marcus Zhao — Head Coach & Founder of IronPath Coaching"
+                className="aspect-[3/4] w-full object-cover"
+                loading="eager"
+              />
               {/* Name overlay */}
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-iron-950/90 to-transparent p-6 pt-16">
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-iron-950/95 via-iron-950/40 to-transparent p-6 pt-20">
                 <p className="text-xl font-bold text-white">Marcus Zhao</p>
                 <p className="text-sm text-forge-400">Head Coach &amp; Founder</p>
               </div>
