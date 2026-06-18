@@ -1,0 +1,26 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ogBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0e17"/>
+      <stop offset="100%" stop-color="#1a1e28"/>
+    </linearGradient>
+    <linearGradient id="ogAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#ogBg)"/>
+  <circle cx="180" cy="180" r="220" fill="url(#ogAccent)" opacity="0.06"/>
+  <circle cx="1050" cy="500" r="280" fill="url(#ogAccent)" opacity="0.04"/>
+  <rect x="150" y="200" width="90" height="90" rx="16" fill="url(#ogAccent)" opacity="0.9"/>
+  <text x="205" y="258" text-anchor="middle" font-family="sans-serif" font-size="42" font-weight="700" fill="#0a0e17">IP</text>
+  <text x="280" y="255" font-family="Inter, sans-serif" font-size="52" font-weight="800" fill="white" letter-spacing="-1">IronPath</text>
+  <text x="150" y="360" font-family="Inter, sans-serif" font-size="58" font-weight="800" fill="white" letter-spacing="-2">
+    <tspan x="150" dy="0">Transform Your Body,</tspan>
+    <tspan x="150" dy="72" fill="url(#ogAccent)">Transform Your Life</tspan>
+  </text>
+  <text x="150" y="480" font-family="Inter, sans-serif" font-size="24" fill="#8592ab">
+    Personal Training &amp; Online Coaching by Marcus Zhao · Based in Shanghai
+  </text>
+  <rect x="0" y="620" width="1200" height="10" fill="url(#ogAccent)"/>
+</svg>
